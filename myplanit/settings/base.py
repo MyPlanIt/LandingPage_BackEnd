@@ -41,7 +41,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'LandingPage_BackEnd.urls'
+ROOT_URLCONF = 'myplanit.urls'
 
 TEMPLATES = [
     {
@@ -59,7 +59,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'LandingPage_BackEnd.wsgi.application'
+WSGI_APPLICATION = 'myplanit.wsgi.application'
 
 
 # Password validation
