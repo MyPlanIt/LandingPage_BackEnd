@@ -16,7 +16,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = env('DJANGO_SECRET_KEY')
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = ['ec2-3-39-42-138.ap-northeast-2.compute.amazonaws.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
