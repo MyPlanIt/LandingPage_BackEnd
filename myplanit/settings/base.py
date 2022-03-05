@@ -14,7 +14,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env('DJANGO_SECRET_KEY')
-DEBUG = env('DEBUG')
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'http://ec2-3-39-42-138.ap-northeast-2.compute.amazonaws.com', '3.39.42.138']
 
